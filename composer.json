@@ -97,5 +97,8 @@
     },
     "require-dev": {
         "drush/drush": "^11.5"
+    },
+    "scripts": {
+        "drush": "./vendor/bin/drush"
     }
 }

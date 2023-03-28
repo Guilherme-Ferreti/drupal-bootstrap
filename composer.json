@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^2.0",
+        "drupal/admin_toolbar": "^3.3",
         "drupal/bootstrap4": "^3.0",
         "drupal/core-composer-scaffold": "^10.0",
         "drupal/core-project-message": "^10.0",
@@ -96,6 +97,7 @@
         }
     },
     "require-dev": {
+        "drupal/devel": "^5.1",
         "drush/drush": "^11.5"
     },
     "scripts": {

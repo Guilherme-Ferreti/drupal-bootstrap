@@ -16,9 +16,12 @@
     ],
     "require": {
         "composer/installers": "^2.0",
+        "drupal/bootstrap4": "^3.0",
         "drupal/core-composer-scaffold": "^10.0",
         "drupal/core-project-message": "^10.0",
-        "drupal/core-recommended": "^10.0"
+        "drupal/core-recommended": "^10.0",
+        "drupal/ds": "^3.15",
+        "drupal/field_group": "^3.4"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -91,5 +94,8 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "drush/drush": "^11.5"
     }
 }
